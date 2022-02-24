@@ -1,4 +1,4 @@
-package hellcoding.spring.basic;
+package study.spring.basic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
