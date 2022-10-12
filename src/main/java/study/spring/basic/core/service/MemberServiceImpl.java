@@ -2,11 +2,14 @@ package study.spring.basic.core.service;
 
 import study.spring.basic.core.domain.Member;
 import study.spring.basic.core.repository.MemberRepository;
-import study.spring.basic.core.repository.MemoryMemberRepository;
 
 public class MemberServiceImpl implements MemberService {
 
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private MemberRepository memberRepository;
+
+    public MemberServiceImpl(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
 
     @Override
     public void join(Member member) {

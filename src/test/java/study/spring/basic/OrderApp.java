@@ -4,15 +4,14 @@ import study.spring.basic.core.domain.Grade;
 import study.spring.basic.core.domain.Member;
 import study.spring.basic.core.domain.Order;
 import study.spring.basic.core.service.MemberService;
-import study.spring.basic.core.service.MemberServiceImpl;
 import study.spring.basic.core.service.OrderService;
-import study.spring.basic.core.service.OrderServiceImpl;
 
 public class OrderApp {
 
     public static void main(String[] args) {
-        MemberService memberService = new MemberServiceImpl();
-        OrderService orderService = new OrderServiceImpl();
+        AppConfig appConfig = new AppConfig();
+        MemberService memberService = appConfig.memberService();
+        OrderService orderService = appConfig.orderService();
 
         long memberId = 1L;
         Member member = new Member(memberId, "memberA", Grade.VIP);
