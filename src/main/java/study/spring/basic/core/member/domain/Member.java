@@ -1,4 +1,4 @@
-package study.spring.basic.core.domain;
+package study.spring.basic.core.member.domain;
 
 public class Member {
 

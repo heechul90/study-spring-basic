@@ -1,8 +1,8 @@
-package study.spring.basic.core.service;
+package study.spring.basic.core.member.service;
 
-import study.spring.basic.core.domain.Member;
-import study.spring.basic.core.repository.MemberRepository;
-import study.spring.basic.core.repository.MemoryMemberRepository;
+import study.spring.basic.core.member.domain.Member;
+import study.spring.basic.core.member.repository.MemberRepository;
+import study.spring.basic.core.member.repository.MemoryMemberRepository;
 
 public class MemberServiceImpl implements MemberService {
 

@@ -1,6 +1,6 @@
-package study.spring.basic.core.repository;
+package study.spring.basic.core.member.repository;
 
-import study.spring.basic.core.domain.Member;
+import study.spring.basic.core.member.domain.Member;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
