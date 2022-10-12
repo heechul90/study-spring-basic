@@ -1,12 +1,16 @@
 package study.spring.basic.core.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import study.spring.basic.core.domain.Member;
 import study.spring.basic.core.repository.MemberRepository;
 
+@Component
 public class MemberServiceImpl implements MemberService {
 
     private MemberRepository memberRepository;
 
+    @Autowired
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }

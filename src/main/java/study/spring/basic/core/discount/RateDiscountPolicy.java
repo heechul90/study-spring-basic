@@ -1,8 +1,10 @@
 package study.spring.basic.core.discount;
 
+import org.springframework.stereotype.Component;
 import study.spring.basic.core.domain.Grade;
 import study.spring.basic.core.domain.Member;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
 
     //10% 할인
