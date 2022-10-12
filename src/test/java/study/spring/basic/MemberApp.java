@@ -1,8 +1,8 @@
-package study.spring.basic.core.member;
+package study.spring.basic;
 
-import study.spring.basic.core.member.domain.Grade;
-import study.spring.basic.core.member.domain.Member;
-import study.spring.basic.core.member.service.MemberServiceImpl;
+import study.spring.basic.core.domain.Grade;
+import study.spring.basic.core.domain.Member;
+import study.spring.basic.core.service.MemberServiceImpl;
 
 public class MemberApp {
 

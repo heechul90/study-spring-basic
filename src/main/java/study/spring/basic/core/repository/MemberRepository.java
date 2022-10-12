@@ -1,6 +1,6 @@
-package study.spring.basic.core.member.repository;
+package study.spring.basic.core.repository;
 
-import study.spring.basic.core.member.domain.Member;
+import study.spring.basic.core.domain.Member;
 
 public interface MemberRepository {
 

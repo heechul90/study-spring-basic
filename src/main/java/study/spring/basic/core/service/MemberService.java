@@ -1,6 +1,6 @@
-package study.spring.basic.core.member.service;
+package study.spring.basic.core.service;
 
-import study.spring.basic.core.member.domain.Member;
+import study.spring.basic.core.domain.Member;
 
 public interface MemberService {
 
