@@ -13,8 +13,8 @@ import study.spring.basic.core.repository.MemoryMemberRepository;
 )
 public class AutoAppConfig {
 
-    @Bean(name = "memoryMemberRepository")
+    /*@Bean(name = "memoryMemberRepository")
     public MemberRepository memberRepository() {
         return new MemoryMemberRepository();
-    }
+    }*/
 }
