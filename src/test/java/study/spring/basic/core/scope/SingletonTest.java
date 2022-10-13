@@ -23,7 +23,7 @@ public class SingletonTest {
 
         assertThat(singletonBean1).isSameAs(singletonBean2);
 
-        ac.close();
+        ac.close(); //종료
     }
 
     @Scope("singleton")
