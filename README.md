@@ -71,4 +71,4 @@
     - 스코프와 Provider
     - 스코프와 프록시
 
-[다음으로](https://github.com/heechul90/study-springmvc-servlet)
+[[이전으로]](https://github.com/heechul90/study-spring-start) [[다음으로]](https://github.com/heechul90/study-springmvc-servlet)
